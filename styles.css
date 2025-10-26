@@ -42,3 +42,76 @@ h1{
     font-size: 100px;
     color: linear-gradient(45 deg, rgb(54, 54, 54), grey, white);
 }
+
+.box{
+    height: 400px;
+    width: 300px;
+    background-color:white;
+    border-radius: 25px;
+    position:absolute;
+    bottom: 100px;
+    left: 100px;
+}
+.box1{
+    height: 400px;
+    width: 300px;
+    background-color:white;
+    border-radius: 25px;
+    position:absolute;
+    bottom: 100px;
+    left: 450px;
+}
+.box2{
+    height: 400px;
+    width: 300px;
+    background-color:white;
+    border-radius: 25px;
+    position:absolute;
+    bottom: 100px;
+    left: 800px;
+}
+
+.box:hover{
+    background-color: white;
+    transform:scale(1.3);
+}
+
+.box1:hover{
+    background-color: white;
+    transform:scale(1.3);
+}
+
+.box2:hover{
+    background-color: white;
+    transform:scale(1.3);
+}
+
+.blink{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: rgb(202, 202, 202);
+    position: absolute;
+    left: 25px;
+    top: 50px;
+}
+
+.all{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: rgb(202, 202, 202);
+    position: absolute;
+    left: 25px;
+    top: 50px;
+}
+
+.cure{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border-color: rgb(202, 202, 202);
+    position: absolute;
+    left: 25px;
+    top: 50px;
+}
