@@ -1,5 +1,44 @@
+@font-face{
+    font-family: "Dune Rise";
+    src: url("./Fonts/Dune_Rise.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
-    background-color:rgb(171, 208, 240);
+    background-color:rgb(168, 217, 234);
     height: 500px;
     width: 500px;
+}
+
+
+.logo{
+    width: 400px;
+    height:400px;
+    position: relative;
+    bottom: 150px;
+    opacity: 20%;
+    z-index; 2;
+    right: 70px;
+}
+
+.till{
+    height:600px;
+    width:400px;
+    position: relative;
+    bottom: 400px;
+    z-index; 5;
+    left: 1100px;
+  
+}
+
+h1{
+    font-family: "Dune Rise", san-serif;
+    color: white;
+    position: relative;
+    text-align:center;
+    bottom: 1000px;
+    left: 400px;
+    font-size: 100px;
+    color: linear-gradient(45 deg, rgb(54, 54, 54), grey, white);
 }
