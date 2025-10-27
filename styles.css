@@ -13,22 +13,22 @@ body{
 
 
 .logo{
-    width: 400px;
+    width: 600px;
     height:400px;
     position: relative;
-    bottom: 150px;
+    top: 2000px;
     opacity: 20%;
     z-index; 2;
-    right: 70px;
+    left: 400px;
 }
 
 .till{
     height:600px;
     width:400px;
     position: relative;
-    bottom: 400px;
+    bottom: 250px;
     z-index; 5;
-    left: 1100px;
+    left: 1050px;
   
 }
 
@@ -114,4 +114,22 @@ h1{
     position: absolute;
     left: 25px;
     top: 50px;
+}
+
+.play-btn{
+    background-color: rgb(164, 164, 164);
+    height: 50px;
+    width: 50px;
+    position:relative;
+    font-size: 30px;
+    color: white;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3% ease;
+    box-shadow: 0 0 15px rgba(97, 97, 97, 0.4);
+}
+
+.playing{
+    background: linear-gradient(90deg, #191414, #1DB954)
 }
