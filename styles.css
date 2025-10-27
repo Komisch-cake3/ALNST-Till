@@ -18,16 +18,16 @@ body{
     position: relative;
     top: 2000px;
     opacity: 20%;
-    z-index; 2;
+    z-index: 2;
     left: 400px;
 }
 
-.till{
+.til{
     height:600px;
     width:400px;
     position: relative;
     bottom: 250px;
-    z-index; 5;
+    z-index: 5;
     left: 1050px;
   
 }
@@ -123,11 +123,15 @@ h1{
     position:relative;
     font-size: 30px;
     color: white;
+    text-align: center;
     border:none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3% ease;
     box-shadow: 0 0 15px rgba(97, 97, 97, 0.4);
+    position: absolute;
+    left: 120px;
+    top: 325px;
 }
 
 .playing{
