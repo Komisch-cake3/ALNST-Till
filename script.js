@@ -56,4 +56,3 @@ playButton3.addEventListener('click', () => {
     isPlaying3 = !isPlaying3;
 });
 
-function  setUpPlayer(audioId,buttonId,)
