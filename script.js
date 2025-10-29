@@ -1,9 +1,16 @@
+function pauseAllAudios() {
+    document.querySelectorAll('audio').forEach(a => a.pause());
+    document.querySelectorAll('.play-btn').forEach(b => b.textContent = '▶');
+    document.querySelectorAll('.play-btn').forEach(b => b.classList.remove('playing'));
+}
+
 const playButton = document.getElementById('playButton');
 const audio = document.getElementById('myAudio');
 let isPlaying1 = false;
 
 playButton.addEventListener('click', () => {
     if (!isPlaying1) {
+        pauseAllAudios();
         audio.play();
         playButton.textContent = '⏸';
         playButton.classList.add('playing');
@@ -15,19 +22,19 @@ playButton.addEventListener('click', () => {
     isPlaying1 = !isPlaying1;
 });
 
-const playButtoon = document.getElementById('playButtoon');
-const audioo = document.getElementById('myAudioo');
+const playButton2 = document.getElementById('playButton2');
+const audio2 = document.getElementById('myAudio2');
 let isPlaying2 = false;
-
-playButtoon.addEventListener('click', () => {
+playButton2.addEventListener('click', () => {
     if (!isPlaying2) {
-        audioo.play();
-        playButtoon.textContent = '⏸';
-        playButtoon.classList.add('playing');
+        pauseAllAudios();
+        audio2.play();
+        playButton2.textContent = '⏸';
+        playButton2.classList.add('playing');
     } else {
-        audioo.pause();
-        playButtoon.textContent = '▶';
-        playButtoon.classList.remove('playing');
+        audio2.pause();
+        playButton2.textContent = '▶';
+        playButton2.classList.remove('playing');
     }
     isPlaying2 = !isPlaying2;
 });
@@ -48,3 +55,5 @@ playButton3.addEventListener('click', () => {
     }
     isPlaying3 = !isPlaying3;
 });
+
+function  setUpPlayer(audioId,buttonId,)
