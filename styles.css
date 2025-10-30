@@ -251,3 +251,33 @@ header{
     left: 80px;
     top:1800px;
 }
+
+.image2{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 570px;
+    top:2500px;
+}
+
+.image3{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 80px;
+    top:3150px;
+}
+
+.image3{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    left: 80px;
+    top:3150px;
+}
