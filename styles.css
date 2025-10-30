@@ -248,7 +248,7 @@ header{
     background-color: white;
     border-radius: 20px;
     position: absolute;
-    left: 80px;
+    left: 350px;
     top:1800px;
 }
 
@@ -258,7 +258,7 @@ header{
     background-color: white;
     border-radius: 20px;
     position: absolute;
-    left: 570px;
+    left: 350px;
     top:2500px;
 }
 
@@ -268,7 +268,7 @@ header{
     background-color: white;
     border-radius: 20px;
     position: absolute;
-    left: 80px;
+    left: 350px;
     top:3200px;
 }
 
@@ -279,7 +279,15 @@ header{
     border-radius: 20px;
     position: absolute;
     left: 350px;
-    top:4000px;
+    top:3900px;
 }
 
-
+.holder{
+    background-color: gray;
+    height: 350px;
+    width: 700px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
