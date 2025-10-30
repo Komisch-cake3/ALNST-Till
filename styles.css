@@ -68,8 +68,8 @@ h1{
     background-color:white;
     border-radius: 25px;
     position:absolute;
-    bottom: 0px;
-    left: 350px;
+    bottom: 100px;
+    left: 800px;
     z-index: 5;
 }
 

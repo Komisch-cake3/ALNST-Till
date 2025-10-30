@@ -1,3 +1,5 @@
+// Player 1 //
+
 function pauseAllAudios() {
     document.querySelectorAll('audio').forEach(a => a.pause());
     document.querySelectorAll('.play-btn').forEach(b => b.textContent = '▶');
@@ -22,9 +24,12 @@ playButton.addEventListener('click', () => {
     isPlaying1 = !isPlaying1;
 });
 
+// Player 2 //
+
 const playButton2 = document.getElementById('playButton2');
 const audio2 = document.getElementById('myAudio2');
 let isPlaying2 = false;
+
 playButton2.addEventListener('click', () => {
     if (!isPlaying2) {
         pauseAllAudios();
@@ -39,9 +44,12 @@ playButton2.addEventListener('click', () => {
     isPlaying2 = !isPlaying2;
 });
 
+// Player 3 // 
+
 const playButton3 = document.getElementById('playButton3');
 const audio3 = document.getElementById('myAudio3');
 let isPlaying3 = false;
+
 playButton3.addEventListener('click', () => {
     if (!isPlaying3) {
         pauseAllAudios();
