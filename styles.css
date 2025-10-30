@@ -197,3 +197,28 @@ h1{
     background: linear-gradient(90deg, #191414, #62d98c);
     transition: width 0.1s linear;
 }
+
+.gone{
+    position: absolute;
+    left: 98px;
+    top:20px;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.idk{
+    position: absolute;
+    left: 105px;
+    top:20px;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+}
+.medicine{
+    position: absolute;
+    left: 120px;
+    top:20px;
+    font-size:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: bold;
+}
