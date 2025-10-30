@@ -48,7 +48,7 @@ h1{
     background-color:white;
     border-radius: 25px;
     position:absolute;
-    bottom: 100px;
+    top: 800px;
     left: 100px;
 }
 .box1{
@@ -57,7 +57,7 @@ h1{
     background-color:white;
     border-radius: 25px;
     position:absolute;
-    bottom: 100px;
+    top: 800px;
     left: 450px;
     z-index: 4;
 }
@@ -67,7 +67,7 @@ h1{
     background-color:white;
     border-radius: 25px;
     position:absolute;
-    bottom: 100px;
+    top: 800px;
     left: 800px;
     z-index: 5;
 }
@@ -227,9 +227,17 @@ header{
     color:rgb(255, 255, 255);
     position: relative;
     text-align:center;
-    bottom: 300px;
+    top: 100px;
     left: 600px;
     font-size: 100px;       
-    opacity: 75%;
+}
 
+.song{
+    font-family: "Dune Rise", san-serif;
+    color:rgb(255, 255, 255);
+    position: relative;
+    text-align:center;
+    bottom:850px;
+    left: 100px;
+    font-size:95px;       
 }
