@@ -7,7 +7,7 @@ function pauseAllAudios() {
 }
 
 const playButton = document.getElementById('playButton');
-const audio = document.getElementById('myAudio');
+const audio1= document.getElementById('myAudio');
 const progress = document.getElementById('progress1');
 const bar = document.querySelector('.bar');
 let isPlaying1 = false;
@@ -15,11 +15,11 @@ let isPlaying1 = false;
 playButton.addEventListener('click', () => {
     if (!isPlaying1) {
         pauseAllAudios();
-        audio.play();
+        audio1.play();
         playButton.textContent = '⏸';
         playButton.classList.add('playing');
     } else {
-        audio.pause();
+        audio1.pause();
         playButton.textContent = '▶';
         playButton.classList.remove('playing');
     }
@@ -28,12 +28,12 @@ playButton.addEventListener('click', () => {
 
 // Crashing out rn fdsiflsadjfsjfsdflksfs
 
-audio.addEventListener('timeupdate', () => {
-    const progressPercent = (audio.currentTime / audio.duration) * 100;
-    progress.style.wdith = '${progressPercent}%'
+audio1.addEventListener('timeupdate', () => {
+    const progressPercent = (audio1.currentTime / audio1.duration) * 100;
+    progress.style.width = `${progressPercent}%`
 });
 
-audio.addEventListener('ended',  () => {
+audio1.addEventListener('ended',  () => {
     playButton.textContent = '▶';
     playButton.classList.remove('playing');
     isPlaying1 = false;
@@ -41,10 +41,10 @@ audio.addEventListener('ended',  () => {
 });
 
 bar.addEventListener('click', (e) => {
-    const clickX = e.offSetX;
+    const clickX = e.offsetX;
     const width = bar.clientWidth;
-    const duration = audio.duration;
-    audio.currentTime = (clickX / width) * duration;
+    const duration = audio1.duration;
+    audio1.currentTime = (clickX / width) * duration;
 });
 
 // Player 2 //
