@@ -34,13 +34,12 @@ body{
 
 h1{
     font-family: "Dune Rise", san-serif;
-    color: white;
+    color:rgb(255, 255, 255);
     position: relative;
     text-align:center;
     bottom: 1000px;
     left: 400px;
-    font-size: 100px;
-    color: linear-gradient(45 deg, rgb(54, 54, 54), grey, white);
+    font-size: 100px;       
 }
 
 .box{
@@ -221,4 +220,16 @@ h1{
     font-size:20px;
     font-family:'Times New Roman', Times, serif;
     font-style: bold;
+}
+
+header{
+    font-family: "Dune Rise", san-serif;
+    color:rgb(255, 255, 255);
+    position: relative;
+    text-align:center;
+    bottom: 300px;
+    left: 600px;
+    font-size: 100px;       
+    opacity: 75%;
+
 }
