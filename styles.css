@@ -269,15 +269,17 @@ header{
     border-radius: 20px;
     position: absolute;
     left: 80px;
-    top:3150px;
+    top:3200px;
 }
 
-.image3{
+.image4{
     width: 800px;
     height: 500px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
-    left: 80px;
-    top:3150px;
+    left: 350px;
+    top:4000px;
 }
+
+
