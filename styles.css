@@ -26,20 +26,20 @@ body{
     height:600px;
     width:400px;
     position: relative;
-    top: -190px;
+    top: -290px;
     z-index: 7;
     left: 1050px;
   
 }
 
-h1{
+nav{
     font-family: "Dune Rise", san-serif;
     color:rgb(255, 255, 255);
     position: relative;
     text-align:center;
     bottom: 1200px;
     left: 400px;
-    font-size: 100px;       
+    font-size: 200px;     
 }
 
 
@@ -206,8 +206,6 @@ header{
     text-align: center;
 }
 
-
-
 .text5{
     font-family: "Dune Rise", sans-serif;
     color: rgb(255, 255, 255);
@@ -215,5 +213,49 @@ header{
     position:absolute;
     bottom: 500px;
     left: 150px;
+
+}
+
+.container{
+    height: 200px;
+    width: 20px;
+    background-color:aliceblue;
+    position:absolute;
+    bottom: 400px;
+    left: 50px;
+    flex-wrap: wrap;
+}
+
+.cover1, .cover2, .cover3, .cover4{
+    height: 170px;
+    width: 170px;
+    bottom:20px;
+    flex: auto;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+
+.cover1:hover, .cover2:hover, .cover3:hover, .cover4:hover{
+    transform: scale(1.3);
+}
+
+button{
+    height: 170px;
+    width: 170px;
+    bottom:20px;
+    flex: auto;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.Text7{
+    position: absolute;
+    bottom: 350px;
+    text-align: center;
+    width:50%;
+    left: 450px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
 
 }
