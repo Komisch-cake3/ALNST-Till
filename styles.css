@@ -253,13 +253,13 @@ header{
 }
 
 .image2{
-    width: 800px;
-    height: 500px;
+    width: 450px;
+    height: 700px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
-    left: 350px;
-    top:2500px;
+    left: 700px;
+    top:400px;
 }
 
 .image3{
@@ -302,8 +302,6 @@ header{
 }
 
 
-
-
 .text1{
     font-family: "Dune Rise", san-serif;
     font-size: 50px;
@@ -317,4 +315,30 @@ header{
 .stat{
     height:350px;
     width:350px;
+}
+
+.text2{
+
+    font-family: "Dune Rise", san-serif;
+    font-size: 50px;
+    top: 20px;
+    position: absolute;
+    left: 20px;
+    color: rgb(177, 177, 177);
+
+}
+
+.smile{
+    height:450px;
+    width:350px;
+}
+
+.holder2{
+    background-color: gray;
+    height: 450px;
+    width: 350px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50px;
+    top: 190px;
 }
