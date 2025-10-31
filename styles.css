@@ -273,13 +273,13 @@ header{
 }
 
 .image4{
-    width: 800px;
-    height: 500px;
+    width: 550px;
+    height: 800px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
-    left: 350px;
-    top:3900px;
+    left: 650px;
+    top:600px;
 }
 
 .holder{
@@ -366,4 +366,29 @@ header{
 .child{
     height:450px;
     width:450px;
+}
+
+.holder4{
+    background-color: gray;
+    height: 450px;
+    width: 450px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50px;
+    top: 190px;
+}
+
+.friends{
+    height:550px;
+    width:450px;
+}
+
+.text4{
+    font-family: "Dune Rise", san-serif;
+    font-size: 50px;
+    top: 20px;
+    position: absolute;
+    left: 0px;
+    color: rgb(177, 177, 177);
+    text-align: center;
 }
