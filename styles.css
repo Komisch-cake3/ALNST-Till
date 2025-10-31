@@ -233,6 +233,7 @@ header{
     flex: auto;
     border-radius: 10px;
     cursor:pointer;
+    transition: transform .3s;
 }
 
 
