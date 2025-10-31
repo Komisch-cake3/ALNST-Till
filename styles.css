@@ -13,13 +13,13 @@ body{
 
 
 .logo{
-    width: 600px;
-    height:400px;
+    width: 800px;
+    height:600px;
     position: relative;
-    top: 3500px;
-    opacity: 20%;
+    top: 3200px;
+    opacity: 50%;
     z-index: 2;
-    left: 100px;
+    left: 40px;
 }
 
 .till{
