@@ -281,3 +281,13 @@ header{
     position: absolute;
     left: 25px;
 }
+
+.text5{
+    font-family: "Dune Rise", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    position:absolute;
+    bottom: 500px;
+    left: 150px;
+    
+}
