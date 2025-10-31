@@ -16,10 +16,10 @@ body{
     width: 600px;
     height:400px;
     position: relative;
-    top: 5000px;
+    top: 3500px;
     opacity: 20%;
     z-index: 2;
-    left: 400px;
+    left: 100px;
 }
 
 .till{
