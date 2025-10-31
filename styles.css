@@ -163,15 +163,7 @@ header{
     font-size: 100px;       
 }
 
-.song{
-    font-family: "Dune Rise", san-serif;
-    color:rgb(255, 255, 255);
-    position: relative;
-    text-align:center;
-    bottom:1250px;
-    left: 100px;
-    font-size:95px;       
-}
+
 
 .image1{
     width: 600px;
@@ -331,38 +323,5 @@ header{
     bottom: 10px;
     position: absolute;
     left: 10px;
-}
-
-.bar{
-    width: 250px;
-    height: 8px;
-    background: #333;
-    position: relative;
-    top: 50px;
-    left: 205px;
-    border-radius: 20px;    
-    cursor: pointer;
-
-}
-
-.end{
-    position:absolute;
-    left: 460px;
-    top:65px;
-}
-
-.start{
-    position:absolute;
-    left: 170px;
-    top:65px;
-} 
-
-.play{
-    position: absolute;
-    left: 306px;
-    top: 70px;
-    border-radius: 50px;
-    color:white;
-    background-color: 19141
 }
 
