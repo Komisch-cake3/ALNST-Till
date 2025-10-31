@@ -42,116 +42,6 @@ h1{
     font-size: 100px;       
 }
 
-.song1{
-    height: 100px;
-    width: 500px;
-    background-color:white;
-    border-radius: 25px;
-    position:absolute;
-    top: 350px;
-    left: 100px;
-    transition: transform 0.3s;
-}
-.song2{
-    height: 100px;
-    width: 500px;
-    background-color:white;
-    border-radius: 25px;
-    position:absolute;
-    top: 550px;
-    left: 100px;
-    z-index: 4;
-    transition: transform 0.3s;
-
-}
-.song3{
-    height: 100px;
-    width: 500px;
-    background-color:white;
-    border-radius: 25px;
-    position:absolute;
-    top: 750px;
-    left: 100px;
-    z-index: 5;
-    transition: transform 0.3s;
-}
-
-.song1:hover{
-    background-color: white;
-    transform:scale(1.3);
-}
-
-.song2:hover{
-    background-color: white;
-    transform:scale(1.3);
-}
-
-.song3:hover{
-    background-color: white;
-    transform:scale(1.3);
-}
-
-
-
-.play-btn{
-    background-color: rgb(164, 164, 164);
-    height: 30px;
-    width: 30px;
-    position:relative;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    border:none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3% ease;
-    box-shadow: 0 0 15px rgba(97, 97, 97, 0.4);
-    position: absolute;
-    left: 130px;
-    top: 345px;
-}
-
-.playing{
-    background: linear-gradient(90deg, #191414, #1DB954)
-}
-
-
-
-
-.progress{
-    height: 100%;
-    width: 0%;
-    border-radius: 20px;
-    background: linear-gradient(90deg, #191414, #1DB954);
-    transition: width 0.1s linear;
-}
-
-
-
-.gone{
-    position: absolute;
-    left: 98px;
-    top:20px;
-    font-size:20px;
-    font-family:'Times New Roman', Times, serif;
-    font-style: bold;
-}
-.idk{
-    position: absolute;
-    left: 105px;
-    top:20px;
-    font-size:20px;
-    font-family:'Times New Roman', Times, serif;
-    font-style: bold;
-}
-.medicine{
-    position: absolute;
-    left: 120px;
-    top:20px;
-    font-size:20px;
-    font-family:'Times New Roman', Times, serif;
-    font-style: bold;
-}
 
 header{
     font-family: "Dune Rise", san-serif;
@@ -316,12 +206,78 @@ header{
     text-align: center;
 }
 
-.cover1{
-    height: 75px;
-    width:75px;
-    border-radius: 20px;
-    bottom: 10px;
-    position: absolute;
-    left: 10px;
+.song1{
+    height: 600px;
+    width: 400px;
+    background-color:white;
+    border-radius: 25px;
+    position:absolute;
+    top: 350px;
+    left: 80px;
+    transition: transform 0.3s;
+}
+.song2{
+    height: 100px;
+    width: 500px;
+    background-color:white;
+    border-radius: 25px;
+    position:absolute;
+    top: 550px;
+    left: 50px;
+    z-index: 4;
+    transition: transform 0.3s;
+
+}
+.song3{
+    height: 100px;
+    width: 500px;
+    background-color:white;
+    border-radius: 25px;
+    position:absolute;
+    top: 750px;
+    left: 100px;
+    z-index: 5;
+    transition: transform 0.3s;
 }
 
+.song1:hover{
+    background-color: white;
+    transform:scale(1.3);
+}
+
+.song2:hover{
+    background-color: white;
+    transform:scale(1.3);
+}
+
+.song3:hover{
+    background-color: white;
+    transform:scale(1.3);
+}
+
+.cover1{
+    height: 350px;
+    width:350px;
+    border-radius: 20px;
+    bottom: 225px;
+    position: absolute;
+    left: 25px;
+}
+
+.cover2{
+    height: 350px;
+    width:350px;
+    border-radius: 20px;
+    bottom: 225px;
+    position: absolute;
+    left: 25px;
+}
+
+.cover3{
+    height: 350px;
+    width:350px;
+    border-radius: 20px;
+    bottom: 225px;
+    position: absolute;
+    left: 25px;
+}
