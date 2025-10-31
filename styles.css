@@ -243,12 +243,12 @@ header{
 }
 
 .image1{
-    width: 800px;
+    width: 600px;
     height: 500px;
     background-color: white;
     border-radius: 20px;
     position: absolute;
-    left: 350px;
+    left: 150px;
     top:1800px;
 }
 
@@ -290,4 +290,31 @@ header{
     position: absolute;
     left: 50px;
     top: 100px;
+}
+
+.holder1{
+    background-color: gray;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+
+
+
+.text1{
+    font-family: "Dune Rise", san-serif;
+    font-size: 50px;
+    top: 20px;
+    position: absolute;
+    left: 20px;
+    color: rgb(177, 177, 177);
+
+}
+
+.stat{
+    height:350px;
+    width:350px;
 }
